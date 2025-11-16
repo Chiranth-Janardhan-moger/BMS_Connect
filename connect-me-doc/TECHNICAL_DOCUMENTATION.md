@@ -34,24 +34,24 @@ Node.js 18+ / Express.js
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│           Location Sources (Parallel)                │
+│           Location Sources (Parallel)               │
 ├─────────────────────────────────────────────────────┤
 │  GPS        WiFi        Cell Tower    Accelerometer │
 │  (70%)      (20%)       (10%)         (Movement)    │
-└────┬─────────┬──────────┬──────────────┬───────────┘
+└────┬─────────┬──────────┬──────────────┬────────────┘
      │         │          │              │
      └─────────┴──────────┴──────────────┘
                     │
             ┌───────▼────────┐
-            │  Kalman Filter  │ ← Noise Reduction
+            │  Kalman Filter │ ← Noise Reduction
             └───────┬────────┘
                     │
             ┌───────▼────────┐
-            │ Weighted Fusion │ ← Adaptive Weighting
+            │ Weighted Fusion│ ← Adaptive Weighting
             └───────┬────────┘
                     │
             ┌───────▼────────┐
-            │ Final Location  │
+            │ Final Location │
             └────────────────┘
 ```
 
