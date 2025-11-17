@@ -204,15 +204,15 @@ Phase 2 (Background - 500ms delay):
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    CLIENT LAYER                          │
+│                    CLIENT LAYER                         │
 ├─────────────────────────────────────────────────────────┤
-│  Student App  │  Driver App  │  Admin Dashboard          │
-│  React Native │ React Native │  Web (React)              │
+│  Student App  │  Driver App  │  Admin Dashboard         │
+│  React Native │ React Native │  Web (React)             │
 └───────┬───────────────┬──────────────┬──────────────────┘
         │               │              │
-        │   HTTPS/TLS 1.3 + Socket.IO │
+        │   HTTPS/TLS 1.3 + Socket.IO  │
         │               │              │
-┌───────▼───────────────▼──────────────▼──────────────────┐
+┌───────▼───────────────▼──────────────▼───────────────────┐
 │              API GATEWAY LAYER                           │
 ├──────────────────────────────────────────────────────────┤
 │  • Rate Limiting (Express-Rate-Limit)                    │
@@ -222,14 +222,14 @@ Phase 2 (Background - 500ms delay):
 └───────┬──────────────────────────────────────────────────┘
         │
 ┌───────▼──────────────────────────────────────────────────┐
-│           APPLICATION LAYER (Node.js/Express)            │
+│           APPLICATION LAYER (Node.js & Express)          │
 ├──────────────────────────────────────────────────────────┤
 │  Auth  │ Location │ Chat │ SOS │ Driver │ Student │ Admin│
-└───────┬──────────┬───────────┬──────────────────────────┘
+└───────┬──────────┬───────────┬───────────────────────────┘
         │          │           │
 ┌───────▼────┐ ┌──▼─────┐ ┌──▼────────┐
 │  MongoDB   │ │ Redis  │ │ Socket.IO │
-│  (Primary) │ │ (Cache)│ │ (Real-time)│
+│  (Primary) │ │ (Cache)│ │(Real-time)│
 └────────────┘ └────────┘ └───────────┘
 ```
 
