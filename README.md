@@ -19,7 +19,7 @@ Real-time bus tracking system built with React Native, Node.js, and MongoDB. Tra
 
 <div align="center">
 
-[![View Complete Documentation](https://img.shields.io/badge/📄_Complete_Project_Report-PDF-red?style=for-the-badge&logo=adobeacrobatreader)](./Connect_Me.pdf)
+[![View Complete Documentation](https://img.shields.io/badge/📄_Complete_Project_Report-PDF-red?style=for-the-badge&logo=adobeacrobatreader)](./Connect_ME.pdf)
 
 **27-page comprehensive documentation covering system architecture, algorithms, security, performance analysis, and research contributions**
 
