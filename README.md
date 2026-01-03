@@ -27,20 +27,6 @@ Real-time bus tracking system built with React Native, Node.js, and MongoDB. Tra
 
 ---
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Video Demonstration](#video-demonstration)
-- [Screenshots](#screenshots)
-- [Key Features](#key-features)
-- [Technology Stack](#technology-stack)
-- [Installation Guide](#installation-guide)
-- [Building Mobile Apps](#building-mobile-apps)
-- [Contributors](#contributors)
-- [License](#license)
-
----
-
 ## Overview
 
 ConnectMe is an intelligent real-time student transportation tracking system designed for college campuses. The system provides real-time bus tracking, accurate arrival predictions, and comprehensive analytics to improve the commuting experience for students, drivers, and administrators.
@@ -58,16 +44,8 @@ Live bus location with high accuracy
 Bus arrival and emergency alerts
 </td>
 <td align="center" width="20%">
-<b>Offline Support</b><br/>
-Works without network connection
-</td>
-<td align="center" width="20%">
 <b>Secure Communication</b><br/>
 End-to-end encrypted chat
-</td>
-<td align="center" width="20%">
-<b>Analytics Dashboard</b><br/>
-Comprehensive insights and reports
 </td>
 </tr>
 </table>
@@ -127,20 +105,10 @@ Comprehensive insights and reports
 
 <table>
 <tr>
-<td width="33%" align="center">
+<td align="center">
 <img src="./docs/images/driver-dashboard.png" width="200"><br/>
 <b>Driver Dashboard</b><br/>
 <sub>Trip management controls</sub>
-</td>
-<td width="33%" align="center">
-<img src="./docs/images/driver-route.png" width="200"><br/>
-<b>Route Navigation</b><br/>
-<sub>Turn-by-turn directions</sub>
-</td>
-<td width="33%" align="center">
-<img src="./docs/images/driver-chat.png" width="200"><br/>
-<b>Secure Chat</b><br/>
-<sub>Encrypted communication</sub>
 </td>
 </tr>
 </table>
@@ -183,8 +151,6 @@ Comprehensive insights and reports
 - Live bus location on interactive map
 - Accurate ETA for each stop
 - Complete route visualization
-- Historical journey tracking
-
 </td>
 <td width="50%">
 
@@ -210,7 +176,7 @@ Comprehensive insights and reports
 
 **Safety Features**
 - Emergency SOS alerts (Medical, Breakdown, Accident, Security)
-- End-to-end encrypted chat with drivers
+- End-to-end encrypted chat with other Students
 - Anonymous feedback system
 - Real-time location sharing
 
@@ -222,23 +188,11 @@ Comprehensive insights and reports
 
 <table>
 <tr>
-<td width="50%">
+<td width="100%">
 
 **Trip Management**
 - One-touch trip start and end
 - Automatic location updates
-- Route navigation assistance
-- Student boarding tracking
-
-</td>
-<td width="50%">
-
-**Communication**
-- Secure chat with students
-- Receive important notifications
-- Report issues and delays
-- View waiting students at stops
-
 </td>
 </tr>
 </table>
@@ -248,36 +202,13 @@ Comprehensive insights and reports
 <table>
 <tr>
 <td width="50%">
-
-**Fleet Management**
-- Real-time monitoring of all buses
-- Driver assignment and scheduling
-- Route optimization tools
-- Vehicle maintenance tracking
-
-</td>
-<td width="50%">
-
+  
 **User Management**
 - Add and remove students/drivers
 - Role-based access control
-- Payment tracking
-- User activity monitoring
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**Analytics & Reports**
-- Comprehensive transport statistics
-- Performance metrics and KPIs
-- Custom report generation
-- Traffic pattern analysis
-
 </td>
 <td width="50%">
-
+  
 **Communication**
 - Broadcast notifications to all users
 - Schedule change announcements
@@ -387,35 +318,6 @@ npm run build
 npm start
 ```
 
-### Frontend Setup
-
-**1. Navigate to Frontend Directory**
-```bash
-cd ../frontend
-```
-
-**2. Install Dependencies**
-```bash
-npm install
-```
-
-**3. Configure Environment**
-```bash
-cp .env.example .env
-```
-
-Edit `.env` with your backend URL:
-```env
-API_URL=http://localhost:5000
-```
-
-**4. Start Development Server**
-```bash
-npx expo start
-```
-
----
-
 ## Building Mobile Apps
 
 ### Android APK
@@ -462,61 +364,6 @@ open ConnectMe.xcworkspace
 
 ---
 
-## Future Roadmap
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="33%">
-<h3>Phase 1</h3>
-<h4>Enhanced Location</h4>
-<br/>
-<p>
-Offline support improvements<br/>
-Background tracking<br/>
-Geofencing alerts<br/>
-Better GPS accuracy<br/>
-Location prediction
-</p>
-<br/>
-<b>Q4 2025</b>
-</td>
-<td align="center" width="33%">
-<h3>Phase 2</h3>
-<h4>Smart Features</h4>
-<br/>
-<p>
-Seat reservation system<br/>
-QR code boarding<br/>
-Live bus occupancy<br/>
-Advanced notifications<br/>
-Voice commands
-</p>
-<br/>
-<b>Q1 2026</b>
-</td>
-<td align="center" width="33%">
-<h3>Phase 3</h3>
-<h4>AI & Analytics</h4>
-<br/>
-<p>
-AI-powered ETAs<br/>
-Route optimization<br/>
-Predictive alerts<br/>
-Carbon tracking<br/>
-Smart scheduling
-</p>
-<br/>
-<b>Q2 2026</b>
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
 ## Contributors
 
 ### Core Team
@@ -549,6 +396,16 @@ Smart scheduling
 </a>
 <br />
 <sub>Backend Developer</sub>
+</td>
+  </td>
+<td align="center">
+<a href="https://github.com/rachana">
+<img src="https://github.com/rachana.png" width="100px;" alt="Rachana"/>
+<br />
+<sub><b>Rachana C</b></sub>
+</a>
+<br />
+<sub>Report & Research Paper</sub>
 </td>
 </tr>
 </table>
@@ -584,6 +441,6 @@ For support, email chiranthmoger7@gmail.com or open an issue on GitHub.
 Made with ❤️ by the ConnectMe Team
 
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/Chiranth-Janardhan-moger/Connect_Me)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/Chiranth-Janardhan-moger/BMS_Connect)
 
 </div>
